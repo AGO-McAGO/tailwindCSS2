@@ -15,3 +15,11 @@
     /* "tracking-wider" used to increase the space between the letters. There's "tracking-wide", "-widest", "-tight", "-tightest", e.t.c. */
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer;
   }
+  
+  .linsup{ /* for the log in and sign up links. */
+    @apply text-brightRed border-brightRed md:border-2 hover:bg-brightRed hover:text-white transition ease-out duration-500;
+  }
+  
+  .loadmore{
+    @apply bg-darkBlue text-brightRed hover:bg-brightRed hover:text-darkBlue transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300;
+  }
