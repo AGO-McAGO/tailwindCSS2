@@ -23,3 +23,8 @@
   .loadmore{
     @apply bg-darkBlue text-brightRed hover:bg-brightRed hover:text-darkBlue transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300;
   }
+
+  :root { /* created to be used in the about page */
+    --primary: #1ecc24;
+    --leadFont: 1.5rem;
+  }
