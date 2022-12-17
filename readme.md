@@ -1,2 +1,2 @@
 
-"Heroicons.dev":    The icons used. Clock icon added to the badges on cards. The navigation menu iconed too.
+Hover effects:  Hover effects applied on the logo (i.e. "FOOD NINJA"), the sign up and log in links, the navigation menu, the "Load more" button and on the cards.
