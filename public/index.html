@@ -49,8 +49,7 @@
         <h4 class="font-bold pb-2 mt-12 border-b border-gray-200"> Latest Recipes </h4>
   
         <div class="mt-8">
-          <!-- cards go here -->
-          <div class="rounded bg-white border-gray-200 shadow-2xl overflow-hidden relative">
+          <div class="card"> <!-- card start; the "card" class used here has been defined in the "input.css" which is inside the "src" folder.-->
 
             <!-- "object-cover" makes the image look better instead of been stretched and distorted. -->
             <img src="img/stew.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover">
@@ -58,10 +57,33 @@
               <span class="font-bold"> 5 Bean Chili Stew </span>
               <span class="block text-gray-500 text-sm"> Recipe by Mario </span>
             </div>
-            <div class="absolute top-0 ml-2 mt-2 p-2 bg-brightRed text-secondary-200 text-xs uppercase font-bold rounded-full"> <!-- badge start -->
+            <div class="badge"> <!-- badge start, the "badge" class used here has been defined in the "input.css" which is inside the "src" folder. -->
               <span> 25 mins </span>
             </div> <!-- badge end -->
-          </div>
+          </div> <!-- card end -->
+          
+          <div class="card"> <!-- card start -->
+            <img src="img/noodles.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover">
+            <div  class="m-4">
+              <span class="font-bold"> Veg Noodles </span>
+              <span class="block text-gray-500 text-sm"> Recipe by Mario </span>
+            </div>
+            <div class="badge"> <!-- badge start -->
+              <span> 20 mins </span>
+            </div> <!-- badge end -->
+          </div> <!-- card end -->
+          
+          <div class="card"> <!-- card start -->
+            <img src="img/curry.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover">
+            <div  class="m-4">
+              <span class="font-bold"> Tofu Curry </span>
+              <span class="block text-gray-500 text-sm"> Recipe by Mario </span>
+            </div>
+            <div class="badge"> <!-- badge start -->
+              <span> 14 mins </span>
+            </div> <!-- badge end -->
+          </div> <!-- card end -->
+
         </div>
 
         <h4  class="font-bold pb-2 mt-12 border-b border-orange-200"> Most Popular </h4>
