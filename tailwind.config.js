@@ -11,7 +11,11 @@ module.exports = {
         brightRed: "hsl(12, 88%, 59%)",
         darkBlue: "hsl(228, 39%, 23%)",
         darkGrayishBlue: "hsl(227, 12%, 61%)",
-        veryDarkBlue: "hsl(233, 12%, 13%)"
+        veryDarkBlue: "hsl(233, 12%, 13%)",
+        secondary: {
+          100: "#E2E2D5",
+          200: "#888883"
+        }
       }
     },
   },
